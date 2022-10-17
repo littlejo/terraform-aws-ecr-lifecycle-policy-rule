@@ -14,6 +14,7 @@ No requirements.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_this"></a> [this](#module\_this) | ../../ | n/a |
+| <a name="module_this2"></a> [this2](#module\_this2) | ../../ | n/a |
 
 ## Resources
 
