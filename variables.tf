@@ -22,7 +22,7 @@ variable "image_status" {
 
 variable "tag_prefixes" {
   description = "This parameter is only used if you specified image_status = 'tagged'. You must specify a comma-separated list of image tag prefixes to take action on with your lifecycle policy. For example, if your images are tagged as 'prod', 'prod1', 'prod2', etc you would use the tag prefix prod to specify all of them. If you specify multiple tags, only images with all specified tags will be selected."
-  type        = list(any)
+  type        = list(string)
   default     = []
 }
 
